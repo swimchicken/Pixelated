@@ -26,7 +26,7 @@ def image_path_name(image_name, pixel_size):
         pixel = pixel_img(image_path, pixel_size)
         output_path = os.path.join(current, f"pixelated_{image_name}")
         pixel.save(output_path)
-        print("以處理完\n")
+        print("處理成功\n")
 
     else:
         print("找不到圖像,請再重新run一次\n")
